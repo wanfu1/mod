@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://github.com/wanfu1/mod/assets/174178389/f349f32d-3ff1-49cb-8d38-300456e9681d"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -107,8 +107,10 @@ Windows自带的浏览器找到扩展去里面搜索这两个插件<br>
 <code class="notranslate">https://github.azurezeng.com/static/HE-GoogleRedirect.json</code><br>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/wanfu1/mod/assets/174178389/134fbfc3-dd73-4425-b056-8174560ba5c9"><img src="https://github.com/wanfu1/mod/assets/174178389/134fbfc3-dd73-4425-b056-8174560ba5c9" alt="屏幕截图 2024-06-30 192850" style="max-width: 100%;"></a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://wanfu1.github.io/mod"> 原神MOD中文分享站-永久运行 </a>
 <p>
@@ -163,6 +165,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
